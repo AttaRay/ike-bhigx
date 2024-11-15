@@ -1,6 +1,22 @@
 {
     "cli": {
       "version": "13.2.3"
-    }
+    },
+
+    
+      "build": {
+        "production": {
+          "releaseChannel": "production",  
+          "distribution": "store",         
+          "ios": {
+            "buildConfiguration": "Release"  
+          },
+          "android": {
+            "buildType": "apk"  
+          }
+        }
+      }
+    
+    
   }
   
